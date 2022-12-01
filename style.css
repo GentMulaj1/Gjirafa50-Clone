@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img svg {
+    fill: red;
+}
+
+body {
+}
+
+.first-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(51,51,51,1);
+}
+
+#f-h-span {
+    color: white;
+}
+
+.second-head {
+    width: 100%;
+}
+
+.s-left {
+    width: 30%;
+}
+
+.s-left img {
+    width: 100%;
+}
+
+
+
+
+
+
+
