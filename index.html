@@ -1,35 +1,722 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gjirafa50</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gjirafa50</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> </head>
+
 <body>
-    <div class="first-head">
-        <span id="f-h-span">Mbështetu tek ne. Dërgesa 100% të sigurta, kudo në Kosovë.</span>
-    </div>
-
-    <div class="second-head">
-        <div class="s-left">
-            <img src="./img/logo.svg" alt="">
-        </div>
-
-        <div class="s-mid">
-            <form>
-                <input type="text">
-                <button type="submit">SEARCH</button>
-            </form>
-        </div>
-
-        <div class="s-right">
-            <a href="#">KYÇU</a>
-            <a href="#">🛒</a>
-        </div>
-
-    </div>
-
+	<div class="first-head"> <span id="f-h-span">Mbështetu tek ne. Dërgesa 100% të sigurta, kudo në Kosovë.</span> </div>
+	<div class="h-split">
+		<header>
+			<div class="mobile-menu">
+				<div class="up-menu">
+					<div class="h-left"> <i class="fa-solid fa-bars"></i> <img src="./img/logo.svg"> </div>
+					<div class="h-right"> <a href="#">KYÇU</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> </div>
+				</div>
+				<div class="down-menu">
+					<div class="h-mid">
+						<form action="#">
+							<input type="search" id="search-head" placeholder="Kërko produkte" autocomplete="off"> <a id="search-btn" href="#search-head"><i class="fa-solid fa-magnifying-glass"></i></a> </form>
+					</div>
+				</div>
+			</div>
+			<div class="xl-menu">
+				<div class="h-left"> <img src="./img/logo.svg"> </div>
+				<div class="h-mid">
+					<form action="#">
+						<input type="search" id="search-head" placeholder="Kërko produkte" autocomplete="off"> <a id="search-btn" href="#search-head"><i class="fa-solid fa-magnifying-glass"></i></a> </form>
+				</div>
+				<div class="h-right"> <a href="#">KYÇU</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> </div>
+			</div>
+		</header>
+		<nav>
+			<ul id="nav-title">
+				<li class="pointer "> <a href="#">Kompjuter, Laptop & Server</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/kompjuter.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kompjuter</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">All in One (AiO)</a> <a href="#">Gaming</a> <a href="#">Gjirafa50 Builds</a> <a href="#">Klasik</a> <a href="#">Mini PC</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/laptop.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kompjuter</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">2në1</a> <a href="#">Aksesorë</a> <a href="#">Gaming</a> <a href="#">Për biznes</a> <a href="#">Për shkollë</a> <a href="#">Për shtëpi</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/server.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kompjuter</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Barebone</a> <a href="#">Kasa & Pjesë lidhëse</a> <a href="#">NAS</a> <a href="#">Pjesë</a> <a href="#">Rack</a> <a href="#">Tower</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Celular, Tablet & Navigim</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/celular.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Celular</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Klasik</a> <a href="#">Për të moshuar</a> <a href="#">Të qëndrueshëm</a> <a href="#">Touchscreen</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/gps.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>GPS & Navigim</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Për biçikleta</a> <a href="#">Për makina</a> <a href="#">Për motoçikleta</a> <a href="#">Për ture</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/lexues.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Lexues e-book</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Fletore digjitale</a> <a href="#">Touch</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/tablet.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Tablet</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Google Android</a> <a href="#">iPad OS</a> <a href="#">Tablet grafik</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">TV, Audio & Foto</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/audio.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Audio</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Gramafon</a> <a href="#">Marrës</a> <a href="#">Për shtëpi</a> <a href="#">Përforcues</a> <a href="#">Portative</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/foto&video.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Foto & Video</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Fotoaparate</a> <a href="#">Kartë memorie</a> <a href="#">Lente</a> <a href="#">Teleskop, Dylbi & Mikroskop</a> <a href="#">Tripod</a> <a href="#">Videokamerë</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pajisje-per-automjete.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pajisje për automjete</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Altoparlant</a> <a href="#">Radio</a> <a href="#">Subwoofers</a> <a href="#">Videokamerë</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/tv&projektor.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>TV & Projektor</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Marrës sinjalesh për TV</a> <a href="#">Projektor & Sisteme interaktive</a> <a href="#">TV</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/video-players.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Video Players</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Blu Ray</a> <a href="#">CD</a> <a href="#">DVD</a> <a href="#">Multimedia</a> <a href="#">Portative</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Gaming</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/aksesore.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Aksesorë</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Joystick</a> <a href="#">Karrige & Tavolina</a> <a href="#">Kontroller</a> <a href="#">Kufje</a> <a href="#">Maus</a> <a href="#">Për transmetime</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/konzola&aksesore.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Konzola & Aksesorë</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Nintendo</a> <a href="#">PlayStation 3</a> <a href="#">PlayStation 4</a> <a href="#">PlayStation 5</a> <a href="#">Portative</a> <a href="#">Xbox ONE</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/lojera.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Lojëra</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Edukative</a> <a href="#">Karta Lego</a> <a href="#">Lojëra tavoline</a> <a href="#">Puzzle</a> <a href="#">Sete ndërtimi</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/realitet-virtual.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Realitet Virtual</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Pajisje VR</a> <a href="#">Videolojëra</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/suvenire-per-gamera.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Suvenire për gamera</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Enë</a> <a href="#">Figura</a> <a href="#">Lodra pelushi</a> <a href="#">Pajisje për shkollë</a> <a href="#">Për dhomë</a> <a href="#">Qilim</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/videolojera.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Videolojëra</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Për konzola</a> <a href="#">Për PC</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">SMART</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/lodra-smart&dron.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Lodra smart & Dron</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Dron</a> <a href="#">Lodra</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/ore&mates-aktiviteti.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Orë & Matës aktiviteti</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Matës aktiviteti</a> <a href="#">Orë të mençura</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pajisje-shtepiake.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pajisje shtëpiake</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Elektrik dore</a> <a href="#">Korniza digjitale</a> <a href="#">Llamba LED</a> <a href="#">Poça elektrik</a> <a href="#">Radiomarrëse</a> <a href="#">Stacione moti</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/shendet.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Shëndet</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Higjienë dentare</a> <a href="#">Peshore</a> <a href="#">Të tjerë</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/smart-home.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Smart Home</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Amazon Alexa</a> <a href="#">Apple HomeKit</a> <a href="#">Filtrues ajri</a> <a href="#">Fshesë me vakum</a> <a href="#">Google Assistant</a> <a href="#">Instalime të mençura</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/sport.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Sport</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Çiklizëm</a> <a href="#">Go-Karts</a> <a href="#">Helmeta</a> <a href="#">Hoverboards</a> <a href="#">Kitesurfing</a> <a href="#">Skateboard elektrik</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Aksesorë</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/altoparlante.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Altoparlantë</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">HiFi</a> <a href="#">Për festa</a> <a href="#">Për PC</a> <a href="#">Portativ</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/disqe-te-jashtme.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Disqe të jashtme</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">2.5"</a> <a href="#">3.5"</a> <a href="#">Aksesorë</a> <a href="#">SSD</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/fotovoltaik-(pv).jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Fotovoltaik (PV)</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Panele solare</a> <a href="#">Senzorë</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/kabllo.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kabllo</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Menaxhues për kabllo</a> <a href="#">Për altoparlant</a> <a href="#">Për celular & tablet</a> <a href="#">Për energji</a> <a href="#">Për kompjuter & laptop</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/karta-memorie.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Karta memorie</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Lexues karte</a> <a href="#">Micro SD</a> <a href="#">Për Mac</a> <a href="#">SD</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/kufje&mikrofon.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kufje & Mikrofon</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Dëgjuese</a> <a href="#">Gaming</a> <a href="#">Kufje</a> <a href="#">Mikrofon</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/maus.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Maus</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Gaming</a> <a href="#">Me kabllo</a> <a href="#">Pa kabllo</a> <a href="#">Prezantues</a> <a href="#">Tablet grafik</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/media.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Media</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Kuti & Mbrojtëse</a> <a href="#">Për Blu-Ray</a> <a href="#">Për CD</a> <a href="#">Për DVD</a> <a href="#">Shënues</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/monitor.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Monitor</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Format i gjerë</a> <a href="#">Gaming</a> <a href="#">Grafik</a> <a href="#">I lakuar</a> <a href="#">Për filma</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pajisje-per-zyre.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pajisje për zyrë</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Copëtues letre</a> <a href="#">Kalkulator</a> <a href="#">Karrige</a> <a href="#">Plastifikues</a> <a href="#">Prerëse</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pajisje-rrjeti.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pajisje rrjeti</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Access Point</a> <a href="#">Aksesorë</a> <a href="#">Bluetooth</a> <a href="#">Kartë rrjeti & WiFi</a> <a href="#">Mikrotik</a> <a href="#">Modem</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pastrues.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pastrues</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Ajër i kompresuar</a> <a href="#">Lecka</a> <a href="#">Masë pastrimi</a> <a href="#">Peceta</a> <a href="#">Për CD</a> <a href="#">Për kamera & lente</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Pjesë për kompjuter</a>
+					<div class="hide">
+						<div class="full-hide">
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/burime-energjie.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Burime energjie</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">400 W</a> <a href="#">500 W</a> <a href="#">600 W</a> <a href="#">700 W</a> <a href="#">800 W</a> <a href="#">Aksesorë</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/disk.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Disk</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Për kompjuter</a> <a href="#">Për laptop</a> <a href="#">Për qendra kontrolli</a> <a href="#">Të jashtëm</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/drive-optik.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Drive optik</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Të brendshëm</a> <a href="#">Të jashtëm</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/ftohes.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Ftohës</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Me ujë</a> <a href="#">Për chipset</a> <a href="#">Për disk</a> <a href="#">Për memorie</a> <a href="#">Për procesor</a> <a href="#">Shiko më shumë →</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/karta-zgjerimi.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Karta zgjerimi</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Karta për TV</a> <a href="#">Karta rrjeti LAN</a> <a href="#">Karta WiFi</a> <a href="#">Karta zëri</a> <a href="#">Kontroller</a> <a href="#">Pajisje për editim & regjistrim</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/kartela-grafike.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kartela grafike</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Gaming</a> <a href="#">Multimedia</a> <a href="#">Profesionale</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/kasa.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Kasa</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Për kompjuter</a> <a href="#">Të posaçme</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/memorie-operative.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Memorie operative</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Për kompjuter klasik</a> <a href="#">Për laptop</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/pllake-ame.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Pllakë amë</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Aksesorë</a> <a href="#">Gaming & Multimedia</a> <a href="#">Me kartë WiFi</a> <a href="#">Me procesor të integruar</a> <a href="#">Për Gaming</a> <a href="#">Për zyrë</a> </div>
+								</div>
+							</div>
+							<div class="hide-nav">
+								<div class="left-hide-nav"> <img src="./img/hide-nav/procesor.jpg" alt=""> </div>
+								<div class="right-hide-nav">
+									<div class="up-hide-nav">
+										<p>Procesor</p>
+									</div>
+									<div class="down-hide-nav"> <a href="#">Për kompjuter</a> <a href="#">Për server & workstation</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Outlet</a>
+					<div class="hide" style="padding: 0px;">
+						<div class="full-hide outlet"> <img src="./img/hide-nav/outlet.jpg" alt=""> </div>
+					</div>
+				</li>
+				<li class="pointer "> <a href="#">Çka ka t're?</a> </li>
+			</ul>
+		</nav>
+	</div>
+	<div class="wrapper">
+		<div class="carousel"> <img class="mySlide" src="img/slider/happy-hours.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/logitech.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/lenovo.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/me-shume-teknologji.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/msi.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/permireso-performancen.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/logitech2.jpg" style="width:100%" draggable="false"> <img class="mySlide" src="img/slider/WiFi6.jpg" style="width:100%" draggable="false"> </div>
+	</div>
+	<div class="ads"> <img src="./img/ads.jpg" alt=""> <img src="./img/ads2.jpg" alt=""> </div>
+	<div class="top-btn">
+		<a href="#">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.002 86.002">
+				<path d="M80.093 64.999a3.488 3.488 0 0 0 4.896 0 3.405 3.405 0 0 0 0-4.847L45.445 21.004a3.483 3.483 0 0 0-4.892 0L1.013 60.152a3.405 3.405 0 0 0 0 4.847 3.486 3.486 0 0 0 4.895 0l37.091-35.703 37.094 35.703z"></path>
+			</svg>
+		</a>
+	</div>
+	<main>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/199238/thumb/0.jpg" alt=""> <a id="title-a" href="#">Dëgjuese QCY TWS T1C, të bardha</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/198841/thumb/0.jpg" alt=""> <a id="title-a" href="#">Çantë shpine Lenovo 1B210 për laptop 15.6", gri</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/126855/thumb/0.jpg" alt=""> <a id="title-a" href="#">Kamerë Logitech StreamCam C980, e hirtë</a>
+			<p id="cmimi">139.50€ <span>163.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/167065/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/16765/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/199238/thumb/0.jpg" alt=""> <a id="title-a" href="#">Dëgjuese QCY TWS T1C, të bardha</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/198841/thumb/0.jpg" alt=""> <a id="title-a" href="#">Çantë shpine Lenovo 1B210 për laptop 15.6", gri</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/126855/thumb/0.jpg" alt=""> <a id="title-a" href="#">Kamerë Logitech StreamCam C980, e hirtë</a>
+			<p id="cmimi">139.50€ <span>163.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/167065/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/16765/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/199238/thumb/0.jpg" alt=""> <a id="title-a" href="#">Dëgjuese QCY TWS T1C, të bardha</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/198841/thumb/0.jpg" alt=""> <a id="title-a" href="#">Çantë shpine Lenovo 1B210 për laptop 15.6", gri</a>
+			<p id="cmimi">19.50€ <span>39.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/126855/thumb/0.jpg" alt=""> <a id="title-a" href="#">Kamerë Logitech StreamCam C980, e hirtë</a>
+			<p id="cmimi">139.50€ <span>163.50€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/167065/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+		<div class="card"> <img class="images1" src="https://hhstsyoejx.gjirafa.net/gj50/img/16765/thumb/0.jpg" alt=""> <a id="title-a" href="#">Karrige SENSE7 Vanguard, me pëlhurë, e zezë/kuqe</a>
+			<p id="cmimi">179.50€ <span>191.37€</span></p>
+			<p id="stars"><span>Perfshire TVSH-ne</span><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </span></p>
+			<div id="card-footer"> <a href="#">SHIKO DETAJET</a> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <a href="#"><i class="fa-regular fa-heart"></i></a> </div>
+		</div>
+	</main>
+	<footer>
+		<div class="bg-first-f">
+			<div class="first-f"> <img src="./img/footer/apple.png" alt=""> <img src="./img/footer/samsung.png" alt=""> <img src="./img/footer/msi.png" alt=""> <img src="./img/footer/steelseries.png" alt=""> <img src="./img/footer/lenovo.png" alt=""> <img src="./img/footer/zowie.png" alt=""> </div>
+		</div>
+		<div class="second-f">
+			<div class="second-f-left"> <img src="./img/logo.svg" alt=""> </div>
+			<div class="second-f-right">
+				<div class="llogaria">
+					<p>Llogaria</p> <a href="#">Kyçu</a> <a href="#">Regjistrohu</a> <a href="#">Keni harruar fjalëkalimin?</a> </div>
+				<div class="k-n-klienteve">
+					<p>Kujdesi ndaj klientëve</p> <a href="#">Për Gjirafa 50</a> <a href="#">Pagesat</a> <a href="#">Çështje teknike</a> <a href="#">Transporti</a> <a href="#">Produktet/porositë</a> <a href="#">GjirafaFLEX</a> </div>
+				<div class="kontakt">
+					<p>Kontakt</p> <a href="#">Kosovë: +383 38 616 161</a> <a href="#">contact@gjirafa50.com</a> <a href="#">Magjistralja Prishtinë-Ferizaj Kilometri i 6 (Lapnasellë) Prishtinë, Kosovë</a> <a href="#">Për kërkesa të ofertave ju lutemi drejtohuni në: b2b@gjirafa50.com</a> </div>
+			</div>
+		</div>
+		<div class="third-f">
+			<div> <span>Pagesat bëhen përmes:</span> <img src="./img/footer/visa.png" alt=""> </div>
+			<div> <span>Rri i lidhur me Gjirafa50</span>
+				<a href="#"><img class="small-icon" src="./img/footer/facebook.png" alt=""></a>
+				<a href="#"><img class="small-icon" src="./img/footer/twitter.png" alt=""></a>
+				<a href="#"><img class="small-icon" src="./img/footer/instagram.png" alt=""></a>
+			</div>
+		</div>
+		<div class="fourth-f">
+			<p>Mundësuar nga Gjirafa, Inc. - Të gjitha të drejtat e rezervuara</p>
+		</div>
+		<div class="fifth-f"> <a href="#">Termet dhe kushtet</a> <a href="#" style="cursor: none;">|</a> <a href="#">Politika e Privatësisë</a> </div>
+		<div class="sixth-f">
+			<a href="#"><img src="./img/footer/gjirafa.png" alt=""></a>
+			<a href="#"><img src="./img/footer/gjirafa50.png" alt=""></a>
+			<a href="#"><img src="./img/footer/joy.png" alt=""></a>
+			<a href="#"><img src="./img/footer/video.png" alt=""></a>
+			<a href="#"><img src="./img/footer/pikBiz.png" alt=""></a>
+			<a href="#"><img src="./img/footer/aNet.png" alt=""></a>
+			<a href="#"><img src="./img/footer/lab.png" alt=""></a>
+		</div>
+	</footer>
+	<script src="app.js"></script>
 </body>
+
 </html>
